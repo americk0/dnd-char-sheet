@@ -1,0 +1,34 @@
+.dnd {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.dnd > header {
+  width: 100%;
+
+  background-color: blue;
+  min-height: 1em;
+}
+.dnd > section {
+  width: 100%;
+
+  background-color: red;
+  min-height: 1em;
+}
+.dnd > section > section {
+  display: inline-block;
+  float: left;
+  width: 55%;
+
+  background-color: green;
+  min-height: 1em;
+}
+.dnd > section > aside {
+  display: inline-block;
+  float: left;
+  width: 45%;
+
+  background-color: yellow;
+  min-height: 1em;
+}
